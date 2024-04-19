@@ -7,7 +7,7 @@ const { pokeStoreCommand } = require("./Controller/pokeStore.controller");
 const { userBuyCommand, userGivePokeDollar } = require("./Controller/userBuyGive.controller");
 const { evolveCommand } = require("./Controller/evolve.controller");
 
-const token = "6235641191:AAEgYT5jZMy9cfIL-ZK-clM58-ffT0LchtA";
+const token = "7144188181:AAFWoYYzzdgnSqTng8at7UUY-IheY9LOTag";
 
 const bot = new TelegramBot(token , {polling : true});
 
